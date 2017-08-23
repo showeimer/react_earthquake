@@ -9,9 +9,9 @@ Create a folder called components inside of your src directory for project files
 
 Create a folder called styles inside of your src directory for style sheets.
 
-In the public directory, open the index.html file and add the following <link> tag under the last link in the <head> : <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+In the public directory, open the index.html file and add the following <link> tag under the last link in the '<head>' : '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">'
 
-Add a class of container-fluid to your <div id="root"></div> in your index.html.
+Add a class of container-fluid to your '<div id="root"></div>' in your index.html.
 
 Move your App.js file in to your components folder.
 
@@ -27,11 +27,11 @@ In the App.css file, copy and paste the starter App.css from the starter_files o
 
 Delete the logo.svg import statement from your App.js file.
 
-Delete the entire <div className="App-header"> from your App.js file.
+Delete the entire '<div className="App-header">' from your App.js file.
 
-Create a <div className="title"> inside of your .App div in your App.js file.
+Create a '<div className="title">' inside of your .App div in your App.js file.
 
-Create a <div className="my-header"> in your App.js file inside of your .title div and type "Earthquakes!" inside of it to make sure everything is linked up properly.
+Create a '<div className="my-header">' in your App.js file inside of your .title div and type "Earthquakes!" inside of it to make sure everything is linked up properly.
 
 Create a folder called data in your src directory.
 
@@ -61,7 +61,7 @@ Underneath the .title div you should place the EarthquakeInfo then the Earthquak
 
 ### Hints  
 
-Inside of the render method, map over your data and return the following <div>.
+Inside of the render method, map over your data and return the following '<div>'.
 
 <div className="col-sm-6" key={FILL_ME_IN_WITH_A_UNIQUE_KEY}>
 
